@@ -11,3 +11,33 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Jekyll specific
+.jekyll-cache/
+.jekyll-metadata
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor files
+.vscode/
+*.sublime-*
+*.swp
+.idea/
+
+# Ruby/Bundle
+.ruby-version
+.bundle/
+vendor/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# misc
+.DS_Store

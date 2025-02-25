@@ -1,0 +1,7 @@
+<li>
+  "{{ post.title }}",
+  {{ post.venue }},
+  {{ post.location }},
+  {% assign date_format = post.date | date: "%B %Y" %}
+  {{ date_format }}{% if post.type %} ({{ post.type }}){% endif %}.
+</li>

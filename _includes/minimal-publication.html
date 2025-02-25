@@ -1,0 +1,11 @@
+<li>
+    {% assign author_string = post.authors %}
+    {% assign highlighted_authors = author_string | replace: "Do Hyun Kim", "<span class='highlight-author'>Do Hyun Kim</span>" %}
+    <span class="publication-authors">{{ highlighted_authors }}</span>.
+    {% if post.paperurl %}
+      "<a href="{{ post.paperurl }}" target="_blank" class="publication-title">{{ post.title }}</a>."
+    {% else %}
+      {{ post.title }},
+    {% endif %}
+    <i>{{ post.venue }}</i> ({{ post.date | date: "%Y" }}).
+</li>

@@ -1,0 +1,47 @@
+.minimal-publications {
+    list-style-type: disc;
+    margin-left: 1.5em;
+    
+    li {
+      margin-bottom: 0.7em;
+      line-height: 1.4;
+    }
+    
+    .publication-authors {
+      display: inline;
+    }
+    
+    .highlight-author {
+      font-weight: bold;
+    }
+    
+    a.publication-title {
+      font-weight: 500;
+      text-decoration: underline;
+      color: inherit; // Use normal text color instead of blue
+      
+      &:hover {
+        color: #0366d6; // Change color on hover for feedback
+      }
+    }
+}
+
+.minimal-talks {
+    list-style-type: disc;
+    margin-left: 1.5em;
+    
+    li {
+      margin-bottom: 0.7em;
+      line-height: 1.4;
+    }
+    
+    a.talk-title {
+      font-weight: 500;
+      text-decoration: none;  // Changed from underline to none
+      color: inherit;
+      
+      &:hover {
+        color: #0366d6;
+      }
+    }
+}
