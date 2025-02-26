@@ -12,7 +12,7 @@ I am a Ph.D. candidate in the Department of Biostatistics at UCLA. My research i
 Education
 ======
 * Ph.D in Biostatistics, UCLA, 2026 (expected)
-* B.S. in Cellular & Molecular Biology and Neuroscience, Johns Hopkins University, 2013
+* B.S. in Molecular & Cellular Biology and Neuroscience, Johns Hopkins University, 2013
 
 Publications
 ======
